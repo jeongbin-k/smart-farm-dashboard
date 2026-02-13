@@ -1,4 +1,4 @@
-import Header from "../../components/header";
+import Header from "../../components/Header";
 import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
