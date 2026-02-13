@@ -1,0 +1,168 @@
+.dashboard_container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.dashboard_main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.no_data {
+  text-align: center;
+  padding: 40px;
+}
+
+.farm_header {
+  background-color: white;
+  padding: 20px;
+  border: 8px;
+  margin-bottom: 10px;
+}
+
+.farm_header > h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.farm_header > p {
+  color: #666;
+}
+
+/* 돈사 리스트 */
+.penlist_content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.penlist_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.penlist_top > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.penlist_top h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.penlist_top span {
+  background-color: #fee;
+  color: #c33;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.penlist_top button {
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* 통계 */
+.penlist_stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 15px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.stats_content > div:nth-child(1) {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.stats_content > div:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* 토글 부분 */
+.toggle_content {
+  margin-top: 15px;
+}
+
+.toggle_content > button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.penid_container {
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.penid_container > img {
+  width: 50px;
+  height: 50px;
+  border: 5px;
+  object-fit: cover;
+}
+
+.penid_content {
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.pen_id {
+  font-weight: bold;
+  color: black;
+}
+
+/* 로딩 및 에러 */
+.common_loding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.common_err {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+.common_err > div {
+  color: red;
+}
+.common_err > button {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

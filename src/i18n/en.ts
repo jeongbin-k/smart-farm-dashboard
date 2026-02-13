@@ -1,0 +1,47 @@
+const en = {
+  common: {
+    loading: "Loading...",
+    error: "An error occurred",
+    retry: "Retry",
+    logout: "Logout",
+    noDevice: "No device",
+  },
+  login: {
+    welcome: "Welcome to Smart Farm Control",
+    title: "Smart Farm Control System",
+    subtitle: "please enter your details to sign in",
+    email: "Email",
+    emailplace: "Enter your email...",
+    password: "Password",
+    button: "Login",
+    error_email: "Please enter your email.",
+    error_password: "Please enter your password.",
+    error: "Invalid email or password",
+  },
+  dashboard: {
+    farm: "Main Piggery",
+    title: "Farm Status",
+    all: "All",
+    stock: "Stock",
+    activity: "Activity",
+    feedingTime: "Feeding Time",
+    temperature: "Temperature",
+    unit: "pigs",
+    abnormalList: "Abnormal Pig List",
+    noData: "No data available",
+    min: "min",
+  },
+  detail: {
+    title: "Detail Graph",
+    monitoringTitle: "Real-time Monitoring",
+    dataPoints: "{{count}} Data Points",
+    back: "Back",
+    activity: "Activity",
+    aCaption: "Range: 0-100",
+    feedingTime: "Feeding Time",
+    fCaption: "Unit: min",
+    time: "Timeline",
+  },
+} as const;
+
+export default en;

@@ -1,0 +1,115 @@
+.detail_container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.detail_main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 상단 정보 */
+.detail_top {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail_top h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detail_top p {
+  font-size: 14px;
+  color: #666;
+}
+
+.detail_top button {
+  padding: 10px 20px;
+  background-color: #6b7280;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* 그래프 */
+.detail_graph {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.detail_graph h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/*  */
+.recharts-legend-wrapper {
+  transform: translateY(20px) !important;
+}
+
+/* 범례 설명 */
+.dl_container {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #f9fafb;
+  border-radius: 5px;
+}
+.dl_content {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
+.dl_content > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dl_l {
+  width: 20px;
+  height: 3px;
+  background-color: #3b82f6;
+}
+.dl_r {
+  width: 20px;
+  height: 3px;
+  background-color: #ef4444;
+}
+/* 로딩 및 에러 */
+.common_loding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.common_err {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+.common_err > div {
+  color: red;
+}
+.common_err > button {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

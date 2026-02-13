@@ -1,0 +1,47 @@
+const ko = {
+  common: {
+    loading: "로딩 중입니다",
+    error: "오류가 발생했습니다",
+    retry: "다시 시도",
+    logout: "로그아웃",
+    noDevice: "장치 없음",
+  },
+  login: {
+    welcome: "스마트 농장 관제 시스템에 오신 걸 환영합니다",
+    title: "스마트 농장 관제 시스템",
+    subtitle: "로그인하려면 세부 정보를 입력하세요",
+    email: "이메일",
+    emailplace: "이메일을 입력해 하세요",
+    password: "비밀번호",
+    button: "로그인",
+    error_email: "이메일을 입력해 주세요.",
+    error_password: "비밀번호를 입력해 주세요.",
+    error: "이메일 또는 비밀번호가 올바르지 않습니다",
+  },
+  dashboard: {
+    farm: "중앙 농장",
+    title: "돈사 현황",
+    all: "전체",
+    stock: "재고",
+    activity: "활동도",
+    feedingTime: "식사시간",
+    temperature: "온도",
+    unit: "두",
+    abnormalList: "이상 개체 목록",
+    noData: "데이터가 없습니다",
+    min: "분",
+  },
+  detail: {
+    title: "상세 그래프",
+    monitoringTitle: "실시간 모니터링",
+    dataPoints: "{{count}}개 데이터 포인트",
+    back: "뒤로 가기",
+    activity: "활동량",
+    aCaption: "0-100 범위",
+    feedingTime: "식사 시간",
+    fCaption: "분 단위",
+    time: "시간 순서",
+  },
+} as const;
+
+export default ko;

@@ -1,0 +1,84 @@
+.dash_header {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header_content {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ws_content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.ws_live_indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.ws_live_indicator.is-connected {
+  background-color: #22c55e;
+}
+
+.ws_live_indicator.is-disconnected {
+  background-color: #ef4444;
+}
+
+.logout_btn {
+  padding: 8px 16px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.flag_icon {
+  width: 20px;
+  height: 20px;
+}
+.language_select_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language_select {
+  border: none;
+  padding: 8px 5px;
+  padding-left: 2px !important;
+}
+
+.language_btn {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header_right {
+  display: flex;
+  gap: 10px;
+}
